@@ -21,7 +21,9 @@ print(first,last,sep=' ') """
 
 text1 = text[:3]
 
-print(text1.upper()) """
+print(text1.upper()) 
+#or print(text[:3].upper())
+"""
 
 ### Task 4
 """ 
@@ -39,14 +41,21 @@ print('Last ten characters:', text[-10:]) """
 
 ### Task 6
 
-""" text = '---Python programming---'
+""" text = '---Python  programming---'
 
 text1 = text.replace('-','')
 print(text1) """
 
+# or
+#print(text.strip('-')) for removing characters from left or right for right rstrip and for left lstrip
+
+# slicing method
+""" text = '---Python --- programming---'
+print(text[0:9] + ' ' + text[14:])
+ """
 ### Task 7
 
-""" first_name = 'Shilpa'
+first_name = 'Shilpa'
 last_name = 'Jordan'
 
-print('Firstname:',first_name,'\n'+'Lastname:',last_name) """
+print('Firstname:',first_name,'\n'+'Lastname:', last_name) 
